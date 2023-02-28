@@ -1,0 +1,1 @@
+{"version":3,"sources":["full-width-image.scss"],"names":[],"mappings":"AACI,yBACI,qBAAA","file":"../full-width-image.min.css","sourcesContent":[".full-width-image{\n    figure{\n        padding-bottom:56.25%;\n    }\n}\n"]}
