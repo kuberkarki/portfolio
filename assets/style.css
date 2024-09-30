@@ -71,6 +71,7 @@ body {
 } 
 #terminal__prompt {  
   display: flex;
+  flex-wrap: wrap;
 }
 #terminal__prompt--user {  
   color: #7eda28;
