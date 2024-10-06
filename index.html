@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="Conclusion: Looking Ahead to 2022 | State of the VC Industry">
+    <meta name="description" content="Kuber Karki is a web developer and designer based in Kathmandu, Nepal. He specializes in creating beautiful and functional websites that are easy to use and navigate.">
     <meta name="author" content="">
     <title>Kuber Karki</title>
     <link rel='stylesheet' id='app-css' href='assets/style.css' media='all' />
@@ -29,9 +29,29 @@
               <span id="terminal__prompt--location">~</span>            
               <span id="terminal__prompt--bling">$ php artisan developer</span>            
               <span id="terminal__prompt--cursor"></span>          
+            </div>  
+            <div class="terminal__prompt" id="experince" style="display:none">                   
+              <span id="terminal__prompt--bling">Skills:<br/>
+                &emsp;&emsp;[laravel] [wordpress] [flutter] [codeigniter] <br/>
+                &emsp;&emsp;[PHP] [JS] [Livewire] [vue] [jQuery] [alpine] <br/>
+              </span>          
             </div>        
           </section>      
         </div>    
       </main>
 </body>
+<script>
+  addEventListener("keypress", (event) => {
+    const experience = document.getElementById("experince");
+    if (event.key === "Enter") {
+      if (experience.style.display === "none") {
+        experience.style.display = "block";
+      } else {
+        experience.style.display = "none";
+      }
+     
+    }
+  })
+
+</script>
 </html>
