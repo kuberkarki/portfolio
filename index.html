@@ -51,8 +51,11 @@
       }
      
     }
-  })
-
+    if (event.code === "Space") {
+      const terminal = document.getElementById("terminal");
+      terminal.style.display = "block";
+    }
+  });
   const hideTerminal = () => {
     const terminal = document.getElementById("terminal");
     terminal.style.display = "none";
